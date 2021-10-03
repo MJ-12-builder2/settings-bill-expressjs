@@ -6,15 +6,11 @@ app.get('/', function(req, res) {
         res.send('Settings Bill App') 
 });
 
-app.get('/', function(req, res) {
-    res.send('Settings Bill App') 
-});
-
-app.get('/settings', function(req, res) {
+app.post('/settings', function(req, res) {
     res.send('') 
 });
 
-app.get('/action', function(req, res) {
+app.post('/action', function(req, res) {
     res.send('') 
 });
 
