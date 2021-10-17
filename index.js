@@ -40,7 +40,7 @@ app.post('/settings', function(req, res) {
 
 app.post('/action', function(req, res) {
     settingsBill.recordAction(req.body.actionType)
-    totals: 
+    totals: SettingsBill.totals()
     res.redirect('/');
 });
 
