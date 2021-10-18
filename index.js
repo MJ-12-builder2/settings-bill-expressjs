@@ -55,6 +55,13 @@ app.get('/actions/:actionType', function(req, res) {
 
 const PORT = process.env.PORT || 3011;
 
+app.use(express.static('public'));
+
+app.listen(PORT, function(){
+    console.log("App started at port:", PORT)
+});
+
+
 
 
 
