@@ -3,6 +3,15 @@ const exphbs  = require('express-handlebars');
 const bodyParser = require('body-parser');
 const SettingsBill = require('./settings-bill');
 
+const http = require('http');
+const { response } = require('express');
+    http.createServer(function (request,respond) {
+        response.writeHead(200, {"Content-Type: "text/plain"}),
+        response.end("settings-bill-expressjs\n")
+    }).listen(process.env.PORT)
+});
+
+
 
 const app = express ();
 const settingsBill = SettingsBill();
