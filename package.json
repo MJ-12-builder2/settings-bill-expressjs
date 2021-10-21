@@ -1,7 +1,7 @@
 {
   "name": "settings-bill-expressjs",
   "version": "14.17.0",
-  "description": "",
+  "description": "(https://app.travis-ci.com/MJ-12-builder2/settings-bill-expressjs)",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
@@ -13,12 +13,11 @@
     "mocha": "^5.2.0"
   },
   "dependencies": {
+    "Node": "^14.17.0",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "express-handlebars": "^5.3.4",
-    "Node": "^14.17.0",
     "npm": "^6.14.13"
-
   },
   "directories": {
     "test": "test"
