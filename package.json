@@ -10,14 +10,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "mocha": "^5.2.0",
-    "Node index.js": "^14.17.0"
+    "mocha": "^5.2.0" 
   },
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "express-handlebars": "^5.3.4",
-    "npm": "^6.14.13"
+    "npm": "^6.14.13",
+    "Node": "^14.17.0"
   },
   "directories": {
     "test": "test"
